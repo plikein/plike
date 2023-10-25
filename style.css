@@ -1,0 +1,223 @@
+*{
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+     font-family: montage;
+     scroll-behavior: smooth;
+     color:#272727;
+     text-decoration: none;
+     list-style-type: none;
+}
+
+*::-webkit-scrollbar{
+     display: none;
+}
+
+html,body{
+     width: 100vw;
+     height: 100vh;
+     overflow: hidden;
+     overflow-y: scroll;
+}
+
+.main{
+     width: 100%;
+     height: auto;
+     /* background-color: red; */
+}
+
+.main nav {
+     width: 100%;
+     position: relative;
+     height: 10vh;
+     /* background-color: green; */
+     display: flex;
+     justify-content: space-between;
+     padding: 0 8vw;
+}
+
+nav .logo{
+     width: 10vw;
+     /* background-color: red; */
+     overflow: hidden;
+}
+
+nav h2{
+     font-size: 2.7vw;
+     font-family:monospace;
+}
+
+nav .links{
+     height: 100%;
+     /* background-color: red; */
+     display: flex;
+     align-items: center;
+}
+
+nav ul{
+     display: flex;
+     gap: 40px;
+     align-items: center;
+}
+
+nav ul a{
+     font-weight: 400;
+     font-size: 1.2vw;
+}
+
+.page1{
+     width: 100%;
+     height: 40vh;
+     /* background-color: red; */
+     margin-top: 35vh;
+     display: flex;
+     flex-direction: row;
+     padding: 0 100px;
+     position: relative;
+     align-items: center;
+     justify-content: space-between;
+}
+.page1 .image1{
+     top: 5vh;
+     position: relative;
+     width: 14vw;
+     height: 120%;
+     /* overflow: hidden; */
+}
+
+.page1 .image1 img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+.page1 .image2{
+     position: relative;
+     top: 4vh;
+     width: 14vw;
+     height: 150%;
+     /* overflow: hidden; */
+}
+
+.page1 .image2 img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     position: relative;
+}
+.page1 .image3{
+     top: -8vh;
+     position: relative;
+     width: 14vw;
+     height: 120%;
+     /* overflow: hidden; */
+}
+
+.page1 .image3 img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+.page1 .image4{
+     position: relative;
+     top: 10vh;
+     width: 14vw;
+     height: 120%;
+     /* overflow: hidden; */
+}
+
+.page1 .image4 img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+
+.image1 .texttop{
+     /* background-color: red; */
+     top: -30%;
+     left: 0%;
+     position: absolute;
+     width: 140%;
+}
+
+.image1 .texttop h2{
+     font-size: 4.5vw;
+     font-weight: 400;
+     line-height: 0.4;
+     /* letter-spacing: 100px; */
+}
+
+.image2 .texttop{
+     /* background-color: red; */
+     top: -30%;
+     left: 0%;
+     position: absolute;
+     width: 160%;
+}
+
+.image2 .texttop h2{
+     font-size: 4vw;
+     font-weight: 400;
+     line-height: 0.8;
+     /* letter-spacing: 100px; */
+}
+
+.image3 .texttop{
+     /* background-color: red; */
+     top: -30%;
+     left: 0%;
+     position: absolute;
+     width: 160%;
+}
+
+.image3 .texttop h2{
+     font-size: 4vw;
+     font-weight: 400;
+     line-height: 0.8;
+     letter-spacing: -2px;
+}
+
+.image4 .texttop{
+     /* background-color: red; */
+     top: -30%;
+     left: 0%;
+     position: absolute;
+     width: 160%;
+}
+
+.image4 .texttop h2{
+     font-size: 4vw;
+     font-weight: 400;
+     line-height: 0.8;
+     letter-spacing: 5px;
+}
+
+
+.slideup{
+     animation: slideup;
+     animation-duration: 0.8s;
+     animation-iteration-count: 1;
+}
+
+@keyframes slideup{
+     0%{
+          top: -17%;
+     }
+}
+
+.animation{
+     animation: colorchange;
+     animation-duration: 1.2s;
+     animation-iteration-count: 1;
+     animation-delay: 0.2s;
+     /* color: yellow; */
+}
+
+@keyframes colorchange {
+     0%{
+          transition: all ease 1s;
+          /* color: green; */
+          margin-left: 20px;
+          font-size: 800px;
+     }
+}
+
